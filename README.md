@@ -2,10 +2,11 @@
 
 由于计算机网络实验需要用到socket编程，网上了解了一下用python实现的挺多，所以就顺便玩一玩python。
 
+
 ## 项目内容
 - **题目**：NUAA 2016级计算机网络实验题目7：模拟telnet
 
-- **内容**：包括实现模拟telnet的程序，一个对系统调用的简单测试程序，一个最简单的socket例子，一个无界面聊天室例子。后两个例子均来自互联网。
+- **内容**：包括实现模拟telnet的程序，一个对系统调用的简单测试程序，一个最简单的socket例子，一个无界面聊天室例子。后两个例子均修改自互联网，原作者可以在参考文档中找到。
 
 - **语言**：Python3
 
@@ -15,7 +16,8 @@
 
 - **运行方法**：先运行`server/server.py`，再运行`client/login.py`即可。
 
-## 注意事项：
+
+## 注意事项
 `server.py`中程序默认的保存路径（下方代码）需要根据运行具体目录进行更改。***
 ```python
 fout = open('F:\\Yukina\\classes\\network\\socket代码\\server\\source\\' + file_name, 'wb')
@@ -24,6 +26,7 @@ fout.close()
 output = os.popen(
     'F:\\Yukina\\classes\\network\\socket代码\\server\\source\\' + file_name + ' ' + file_arg)
 ```
+
 
 ## 参考文档
 
