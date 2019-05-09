@@ -11,7 +11,7 @@
 
 **运行方法**：先运行server/server.py，再运行client/login.py即可。
 
-***注意事项：*** server.py中程序默认的保存路径（下方代码）需要根据运行具体目录进行更改。
+***注意事项： server.py中程序默认的保存路径（下方代码）需要根据运行具体目录进行更改。***
 ```python
 fout = open('F:\\Yukina\\classes\\network\\socket代码\\server\\src\\' + file_name, 'wb')
 fout.write(file_content)
