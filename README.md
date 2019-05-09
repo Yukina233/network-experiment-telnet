@@ -29,7 +29,7 @@ output = os.popen(
 
 
 ## 参考文档
-
+本项目的参考文档和网站包括但不限于下列网站和文档：
 1. [python socket 进程间通信 - hellocsz](https://blog.csdn.net/hellocsz/article/details/79520273)
 2. [Python3 基础语法 | 菜鸟教程](http://www.runoob.com/python3/python3-basic-syntax.html)
 3. [python socket编程详细介绍](<https://blog.51cto.com/yangrong/1339593>)
