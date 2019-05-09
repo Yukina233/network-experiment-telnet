@@ -13,9 +13,9 @@
 
 ***注意事项： `server.py`中程序默认的保存路径（下方代码）需要根据运行具体目录进行更改。***
 ```python
-fout = open('F:\\Yukina\\classes\\network\\socket代码\\server\\src\\' + file_name, 'wb')
+fout = open('F:\\Yukina\\classes\\network\\socket代码\\server\\source\\' + file_name, 'wb')
 fout.write(file_content)
 fout.close()
 output = os.popen(
-    'F:\\Yukina\\classes\\network\\socket代码\\server\\src\\' + file_name + ' ' + file_arg)
+    'F:\\Yukina\\classes\\network\\socket代码\\server\\source\\' + file_name + ' ' + file_arg)
 ```
