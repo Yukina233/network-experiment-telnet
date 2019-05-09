@@ -1,0 +1,1 @@
+import os, socketif __name__ == "__main__":    os.system('start F:\Yukina\homework\c语言\Debug' + '\\1(1).exe');
